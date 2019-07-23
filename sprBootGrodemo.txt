@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy    //表示该文件采用Groovy语言格式
+﻿#!/usr/bin/env groovy    //表示该文件采用Groovy语言格式
 /**
         * Sample Jenkinsfile for Maven project sprBootGrodemo
         * from https://github.com/jkchen-hub/sprBootGrodemo/sprBootGrodemo.groovy
@@ -10,7 +10,7 @@ node {
       // Get Jenkinsfile from a GitHub repository
       git 'https://github.com/jkchen-hub/sprBootGrodemo.git'
       // Get the Maven tool.         
-      mvnHome = tool 'apache maven server'
+      mvnHome = tool 'apache server maven'
    }
    stage('Build') {
       // Run the maven build
