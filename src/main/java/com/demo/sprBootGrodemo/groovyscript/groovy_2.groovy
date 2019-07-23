@@ -5,3 +5,4 @@ def test(id){
     //return "test2 id:"+id;
     "test2 id:"+id;
 }
+test(id)
